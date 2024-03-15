@@ -1,5 +1,6 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Seeking help to resolve a marshalling issue which surfaced when an exported function with strinn argument in an unmanged shared library is PInvoked from c# code.
+githustackoverflow issue url : https://stackoverflow.com/questions/78162106/p-invoke-c-exported-function-from-c-sharp-library-char-emty-in-dll?noredirect=1#comment137805770_78162106
 
 # Getting Started
 1. System must have cmake for Windows and c++ compiler that supports c++17.
@@ -15,9 +16,9 @@ TODO: Give a short introduction of your project. Let this section explain the ob
 1. Create a new console application project in c#. 
 2. Copy the code from 'main.cs' file in 'master-project/c#-code' directory of this repository.
 3. Paste the code to entry-point file in c# project.
-4. Build the c# project.
+4. Build the c# project for x64 architecture.
 5. To test the PInvoke from c#, copy the 'sub-project.dll' built in c++ project to the same directory where the application executable is built by c# project.
-6. Bow run/debug the c# application.
+6. Now run/debug the c# application.
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
