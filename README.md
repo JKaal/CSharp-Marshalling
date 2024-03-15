@@ -1,6 +1,6 @@
 # Introduction 
 Seeking help to resolve a marshalling issue which surfaced when an exported function with strinn argument in an unmanged shared library is PInvoked from c# code.
-githustackoverflow issue url : https://stackoverflow.com/questions/78162106/p-invoke-c-exported-function-from-c-sharp-library-char-emty-in-dll?noredirect=1#comment137805770_78162106
+stackoverflow issue url : https://stackoverflow.com/questions/78162106/p-invoke-c-exported-function-from-c-sharp-library-char-emty-in-dll?noredirect=1#comment137805770_78162106
 
 # Getting Started
 1. System must have cmake for Windows and c++ compiler that supports c++17.
